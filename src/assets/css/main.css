@@ -36,7 +36,7 @@ body {
 	border-bottom: 3px solid rgb(5, 69, 137);
 }
 
-.btn-play {
+#btn-play {
 	border: none;
 	padding: 3px 30px 3px 30px;
 	background-color: #28A744;
@@ -47,11 +47,19 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.btn-play:hover {
+#btn-play:hover {
 	background-color: rgb(43, 188, 74);
 }
 
 .total {
 	display: block;
 	font-weight: bold;
+}
+
+#roll-results {
+	display: none;
+}
+
+.title-lg {
+	text-align: center;
 }
