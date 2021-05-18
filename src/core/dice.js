@@ -80,7 +80,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const computerPlays = [numbers[2], numbers[3]];
 
     const rollResultsElement = document.getElementById("roll-results");
-    rollResultsElement.style.display = "block";
+    if(rollResultsElement.style.display != "block") rollResultsElement.style.display = "block";
+
     renderResult(userPlays, computerPlays);
   });
 });
